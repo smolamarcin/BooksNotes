@@ -30,3 +30,13 @@ terminal operation is invoked on stream (lazy nature of streams).
 > map, filter, sorted, limit, distinct
 - terminal operations - produces a results from a stream (any no stream value - even void)
 > forEach, count, collect, 
+
+### Reduce
+Reduce takes 2 arguments
+> initial value
+> BinaryOperator<T> to combine two elements and return new value
+  
+There is overloaded version of reduce, without initial value. It returns an Optional.
+
+Finding max integer using reduce: (without init value it returns optional).
+Optional<Integer> reduce = integers.stream().reduce((a, b) -> Integer.max(a, b));
