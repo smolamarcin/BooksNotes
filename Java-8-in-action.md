@@ -157,4 +157,6 @@ Implementations of Collector that implement various useful reduction operations,
         System.out.println(menu.stream().collect(Collectors.partitioningBy(e->e.isVegetarian(),
                 Collectors.collectingAndThen(Collectors.maxBy(Comparator.comparingInt(Dish::getCalories)),
                         Optional::get))));
+                        
+                        End at page 186.
 
