@@ -45,7 +45,7 @@ Optional<Integer> reduce = integers.stream().reduce((a, b) -> Integer.max(a, b))
 
 Implementations of Collector that implement various useful reduction operations, such as accumulating elements into collections, summarizing elements according to various criteria, etc. 
 
-// Accumulate names into a List
+     // Accumulate names into a List
      List<String> list = people.stream().map(Person::getName).collect(Collectors.toList());
 
      // Accumulate names into a TreeSet
