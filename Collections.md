@@ -26,3 +26,19 @@ While in ArrayList remove(int) method involves copying elements from old array t
 4. Initial Capacity :  If the constructor  is not overloaded , then ArrayList creates an empty list of initial capacity 10 , while LinkedList  only constructs the empty list without any initial capacity.
 
 5. Memory Overhead :  Memory overhead in LinkedList is more as compared to ArrayList as node in LinkedList needs to maintain the addresses of next and previous node. While in ArrayList  each index only holds the actual object(data).
+
+### HashSet vs TreeSet
+
+1. Ordering : HashSet stores the object in random order . There is no guarantee that the element we  inserted first in the HashSet  will be printed first in the output . 
+
+Elements are sorted according to the natural ordering of its elements in TreeSet. If the objects can not
+be sorted in natural order than use compareTo() method to sort the elements of TreeSet object.
+
+2. Null value :   HashSet can store null object while TreeSet does not allow null object. If one try to store null object in TreeSet object , it will throw Null Pointer Exception.
+
+3. Performance : HashSet take constant time performance for the basic operations like add, remove contains and  size.While TreeSet guarantees log(n) time cost for the basic operations (add,remove,contains).
+
+4. Speed : HashSet is much faster than TreeSet,as performance time of HashSet is constant against the log time of TreeSet for most operations (add,remove ,contains and size) . Iteration performance of HashSet mainly depends on the load factor and initial capacity parameters.
+
+5. Internal implementation :  As we have already discussed How hashset internally works in java thus, in one line HashSet are internally backed by hashmap. While TreeSet is backed by a  Navigable  TreeMap. 
+
