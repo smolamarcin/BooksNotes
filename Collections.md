@@ -42,3 +42,5 @@ be sorted in natural order than use compareTo() method to sort the elements of T
 
 5. Internal implementation :  As we have already discussed How hashset internally works in java thus, in one line HashSet are internally backed by hashmap. While TreeSet is backed by a  Navigable  TreeMap. 
 
+### How Hashmap works?
+https://javarevisited.blogspot.com/2011/02/how-hashmap-works-in-java.html
