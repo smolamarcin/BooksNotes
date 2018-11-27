@@ -44,3 +44,7 @@ be sorted in natural order than use compareTo() method to sort the elements of T
 
 ### How Hashmap works?
 https://javarevisited.blogspot.com/2011/02/how-hashmap-works-in-java.html
+
+
+### Contranct equals hashcode
+If two objects are equal according to the equals(Object) method, then calling the hashCode method on each of the two objects must produce the same integer result.
