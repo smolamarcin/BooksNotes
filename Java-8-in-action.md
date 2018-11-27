@@ -1,4 +1,8 @@
-Hello!
+Java 8 in action + some interview questions.
+
+## What is Lambda Expression?
+Lambda expressions are the method without name i.e Anonymous method. In other words, Lambda expression is a function that can be passed around and referenced as an object.
+Lambda expressions consists of 3 parts: arguments, lambda operator(->), lambda expression body.
 ## Method references
 Methods references are easy lambda expressions for already existing methods (methods which already has a name).
 
