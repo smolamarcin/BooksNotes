@@ -26,9 +26,21 @@ Functional interfaces:
 
 ### Function
 Represent a function that accepts one argument and produces a result.
-> public interface Function<T, R> {
->   R apply( T t);
-> }
+    public interface Function<T, R> {
+      R apply( T t);
+    }
+    
+### Consumer
+Represent an operation that accepts a single input argument and returns no result.
+    public interface Consumer<T> {
+      void accept(T t);
+    }
+  
+### Supplier
+Represent a supplie of results.
+    public interface Supplier<T> {
+      T get();
+    }
 
 ## Streams
 Stream - sequence of elements from a source that support data process operations.
