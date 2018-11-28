@@ -26,21 +26,37 @@ Functional interfaces:
 
 ### Function
 Represent a function that accepts one argument and produces a result.
+    
     public interface Function<T, R> {
       R apply( T t);
     }
     
 ### Consumer
 Represent an operation that accepts a single input argument and returns no result.
+        
     public interface Consumer<T> {
-      void accept(T t);
+        void accept(T t);
     }
   
 ### Supplier
 Represent a supplie of results.
+    
     public interface Supplier<T> {
-      T get();
+        T get();
     }
+
+### Predicate
+Evaluates this predicate on the given argument. 
+
+    public interface Predicate<T> {
+        boolean test(T t);
+    }
+    
+### BinaryOperator (extends BiFunction)
+Represents an operation upon two operands of the same type, producing a result of the same type as the operands.
+
+### UnaryOperator (extends Function)
+Represents an operation on a single operand that produces a result of the same type as its operand.  This is a specialization of {for the case where the operand and result are of the same type.
 
 ## Streams
 Stream - sequence of elements from a source that support data process operations.
