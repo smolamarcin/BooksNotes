@@ -12,6 +12,24 @@ Methods references are easy lambda expressions for already existing methods (met
 | Reference to an instance method of a particular object      | containingObject::instanceMethodName      |
 | Reference to an instance method of an arbitrary object of a particular type | ContainingType::methodName    |
 | Reference to a constructor | ClassName::new      |
+
+## Functional Interfaces
+Functional Interface has only ony abstract method (may contain many default and static methods).
+
+Functional interfaces:
+- Function
+- Consumer
+- Supplier
+- Predicate
+- BinaryOperator
+- UnaryOperator
+
+### Function
+Represent a function that accepts one argument and produces a result.
+> public interface Function<T, R> {
+>   R apply( T t);
+> }
+
 ## Streams
 Stream - sequence of elements from a source that support data process operations.
 
