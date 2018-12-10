@@ -48,3 +48,23 @@ https://javarevisited.blogspot.com/2011/02/how-hashmap-works-in-java.html
 
 ### Contranct equals hashcode
 If two objects are equal according to the equals(Object) method, then calling the hashCode method on each of the two objects must produce the same integer result.
+
+
+### HashMap vs TreeMap vs LinkedHashMap
+
+
+    HashMap:
+        Order not maintains
+        Allow one null key and multiplie null values
+        One value per one key
+
+    LinkedHashMap:
+        LinkedHashMap insertion order will be maintained
+        Slower than HashMap and faster than TreeMap
+        If you want to maintain an insertion order use this.
+
+    TreeMap:
+        TreeMap is a tree-based mapping
+        TreeMap will follow the natural ordering of key (compareTo or provided Comparator)
+        Use TreeMap when you need to maintain natural(default) ordering
+
