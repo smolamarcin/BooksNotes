@@ -1,5 +1,7 @@
 ### Collections hierarchy
 
+Source: www.falkhausen.de
+
 ![alt text][logo]
 
 [logo]: http://www.falkhausen.de/Java-8/java.util/Collection-Hierarchy.png "Logo Title Text 2"
