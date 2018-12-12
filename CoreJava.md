@@ -50,4 +50,11 @@ It's possible to do that, if parameters are different.
 * notifyAll
 * wait (3x)
 * clone - protected
-* finalize - protected - deprecated
+* finalize - protected - deprecatedsd
+
+### Super keyword
+
+* Accessing Superclass Members. If your method overrides one of its superclass's methods, you can invoke the overridden method through the use of the keyword super. 
+
+* Subclass Constructors. With super(), the superclass no-argument constructor is called. With super(parameter list), the superclass constructor with a matching parameter list is called. </br>
+If a constructor does not explicitly invoke a superclass constructor, the Java compiler automatically inserts a call to the no-argument constructor of the superclass. If the super class does not have a no-argument constructor, you will get a compile-time error. 
