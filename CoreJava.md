@@ -36,7 +36,18 @@ Apart from the above rules, there are also some facts to keep in mind:
 
 ### Can static method be overloaded? What is hiding? What will happen if extending class will define the non-static method with the same name?
 
-Static methods can be overloaded. 
+Static methods can be overloaded. </br>
 Method hiding may happen in any hierarchy structure in java. When a child class defines a static method with the same signature as a static method in the parent class, then the child’s method hides the one in the parent class.
 You can't create method in child class with the same name and same parameters in child class, when method in parrent class is static.
 It's possible to do that, if parameters are different. 
+
+### Methods in Object class
+* equals
+* hashCode
+* toString
+* getClass
+* notify
+* notifyAll
+* wait (3x)
+* clone - protected
+* finalize - protected - deprecated
