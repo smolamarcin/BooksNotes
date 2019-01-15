@@ -5,3 +5,4 @@
 * Spring performance (DO MAGISTERKI!!!!): https://spring.io/blog/2018/12/12/how-fast-is-spring
 * Kubernetes based on good example (building microservices from scratch): https://medium.freecodecamp.org/learn-kubernetes-in-under-3-hours-a-detailed-guide-to-orchestrating-containers-114ff420e882
 * Spring Boot JPA boost performance: https://blog.ippon.tech/boost-the-performance-of-your-spring-data-jpa-application/
+* Data Structures and ALghoritms tutorials: https://dzone.com/articles/5-free-courses-to-learn-data-structure-and-algorit
