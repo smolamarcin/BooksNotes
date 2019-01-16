@@ -1,4 +1,4 @@
-Useful configs, usefuls cripts, everything that I'm using:
+* Useful configs, usefuls cripts, everything that I'm using:
 
 Spring boot config for develop with H2:
 
