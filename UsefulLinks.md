@@ -6,3 +6,6 @@
 * Kubernetes based on good example (building microservices from scratch): https://medium.freecodecamp.org/learn-kubernetes-in-under-3-hours-a-detailed-guide-to-orchestrating-containers-114ff420e882
 * Spring Boot JPA boost performance: https://blog.ippon.tech/boost-the-performance-of-your-spring-data-jpa-application/
 * Data Structures and ALghoritms tutorials: https://dzone.com/articles/5-free-courses-to-learn-data-structure-and-algorit
+* One to One mapping in hibernate: https://vladmihalcea.com/the-best-way-to-map-a-onetoone-relationship-with-jpa-and-hibernate/
+* One to Many mapping in hibernate: https://vladmihalcea.com/the-best-way-to-map-a-onetomany-association-with-jpa-and-hibernate/
+* Many to Many mapping in Hibernate: https://vladmihalcea.com/the-best-way-to-use-the-manytomany-annotation-with-jpa-and-hibernate/
