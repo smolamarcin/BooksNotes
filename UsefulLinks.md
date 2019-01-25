@@ -10,3 +10,4 @@
 * One to Many mapping in hibernate: https://vladmihalcea.com/the-best-way-to-map-a-onetomany-association-with-jpa-and-hibernate/
 * Many to Many mapping in Hibernate: https://vladmihalcea.com/the-best-way-to-use-the-manytomany-annotation-with-jpa-and-hibernate/
 * Usefyl hibernate tips: https://thoughts-on-java.org/tips/
+* Config for integration tests in Spring Boot: https://blog.tratif.com/2018/04/26/spring-tips-1-structuring-configuration-for-integration-tests/
