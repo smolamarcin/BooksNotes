@@ -8,25 +8,25 @@ Source: www.falkhausen.de
 
 ### BigO in basic Collections
 # List:
-* ArrayList:
-add - O(1), just add at last array index
-add(index, element) - O(n), first move items to the right, then add item to specific index
-get - always O(1)
-remove - O(n) - we need to iterate to specific index
-remove (index) - O(n) - we need to delete object at index, and then copy the rest of array
-indexOf - O(n)
-contains - O(n)
+# ArrayList:
+* add - O(1), just add at last array index
+* add(index, element) - O(n), first move items to the right, then add item to specific index
+* get - always O(1)
+* remove - O(n) - we need to iterate to specific index
+* remove (index) - O(n) - we need to delete object at index, and then copy the rest of array
+* indexOf - O(n)
+* contains - O(n)
 
-* LinkedList
-add - O(1) - just change the indices, this operation does not include iterating, just adding
-get - O(n)
-remove - O(1) - just change the references to the nodes, does not include iterating, just removing
-contains - O(n)
+# LinkedList
+* add - O(1) - just change the indices, this operation does not include iterating, just adding
+* get - O(n)
+* remove - O(1) - just change the references to the nodes, does not include iterating, just removing
+* contains - O(n)
 
-* CopyOnWriteArrayList
-add - O(n)
-get - O(1)
-contains - O(n)
+# CopyOnWriteArrayList
+* add - O(n)
+* get - O(1)
+* contains - O(n)
 
 
 # Set
