@@ -7,8 +7,8 @@ Source: www.falkhausen.de
 [logo]: http://www.falkhausen.de/Java-8/java.util/Collection-Hierarchy.png "Logo Title Text 2"
 
 ### BigO in basic Collections
-#List:
-*ArrayList:
+# List:
+* ArrayList:
 add - O(1), just add at last array index
 add(index, element) - O(n), first move items to the right, then add item to specific index
 get - always O(1)
@@ -17,19 +17,19 @@ remove (index) - O(n) - we need to delete object at index, and then copy the res
 indexOf - O(n)
 contains - O(n)
 
-*LinkedList
+* LinkedList
 add - O(1) - just change the indices, this operation does not include iterating, just adding
 get - O(n)
 remove - O(1) - just change the references to the nodes, does not include iterating, just removing
 contains - O(n)
 
-*CopyOnWriteArrayList
+* CopyOnWriteArrayList
 add - O(n)
 get - O(1)
 contains - O(n)
 
 
-#Set
+# Set
 HashSet: Adding: O(1) | Deleting O(1) | Searching O(n)
 TreeSet: Adding: O(logn) | Deleting: O(1) | Searching O(logn)
 LinkedHashSet
