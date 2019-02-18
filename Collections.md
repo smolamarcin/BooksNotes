@@ -28,14 +28,28 @@ Source: www.falkhausen.de
 * get - O(1)
 * contains - O(n)
 
+# HashMap
+* put - O(1) - when no collision, O(logn) or O(n) - when collision occurs, linked list or tree (depens on java version and size of list in bucket)
+* get - O(1)
+* containsKey - O(1)
+
+
 
 # Set
-HashSet: Adding: O(1) | Deleting O(1) | Searching O(n)
-TreeSet: Adding: O(logn) | Deleting: O(1) | Searching O(logn)
-LinkedHashSet
-EnumSet
-ConcurentSkipListSet
-CopyOnWriteArraySet
+# HashSet: 
+* Adding: O(1)  - using map.put(key) 
+* Contains O(1) - because hashmap is under the hood, this operation uses map.containsKey()
+
+
+# TreeSet 
+* Adding: O(logn) 
+* Deleting: O(1) 
+* Searching O(logn)
+
+# LinkedHashSet
+# EnumSet
+# ConcurentSkipListSet
+# CopyOnWriteArraySet
 
 
 #Queue
