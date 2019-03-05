@@ -11,3 +11,4 @@
 * Many to Many mapping in Hibernate: https://vladmihalcea.com/the-best-way-to-use-the-manytomany-annotation-with-jpa-and-hibernate/
 * Usefyl hibernate tips: https://thoughts-on-java.org/tips/
 * Config for integration tests in Spring Boot: https://blog.tratif.com/2018/04/26/spring-tips-1-structuring-configuration-for-integration-tests/
+* Java memory model & GC: https://www.journaldev.com/2856/java-jvm-memory-model-memory-management-in-java#java-jvm-memory-model
