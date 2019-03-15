@@ -1,3 +1,7 @@
+### Exceptions hierarchy
+
+![alt text](https://lh5.googleusercontent.com/WqqNoyFEkZXfmZBBQjgIutY72_BUV6_By_BAe7Ih9u36HfelS3nTWQEYtdRUkQS32Tuhg9P9CUXo-jgvOpkO84vLm2viI4Od0BNustwONdMm7DKZnKC6kyVHyRJbsESLIPV4uBU)
+
 ### Overloading rules
 
 Two methods will be treated as overloaded if both follow the mandatory rules below:
