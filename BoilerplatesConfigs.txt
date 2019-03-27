@@ -49,5 +49,16 @@ public interface PostRepository extends JpaRepository<Post, Long>, PostRepositor
 
 
 
+4. Data provider in testng:
 
+ @DataProvider(name = "mixedDelimiters")
+    public static Object[][] primeNumbers() {
+        return new Object[][]{{"1,2\n3", 6},
+                {"1,2",3}};
+    }
 
+    @Test(dataProvider = "mixedDelimiters")
+    public void sumThreeMixDelimitedNumbers(String input, int expectedResult) {
+        int actual = stringCalculator.add(input);
+        assertEquals(actual, expectedResult);
+    }
