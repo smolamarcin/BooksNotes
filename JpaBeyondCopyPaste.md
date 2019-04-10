@@ -100,6 +100,7 @@ for (Person person : personList) {
 
 10. Saving in hibernate: merge vs persist
 > void persist(Object object) - save entity. Works for new entities. Does not have to check if entiy exists. After return from this method, entity is managed (so, after calling setter on this entity, hibernate will auto-update entity in database using dirty checking mechanism)
+
 > T merge(T object); - save entity, and also save some old entity(deserialized? I'm not sure about it.). Need to check if entity exists. After returning, entity (object) is 'no entity'. SO when  entity (object) is passed to merge method, it will be copied, save and copy will be returned. So copy is entity, not the passed object.
 So, better choice is persist (because performance, does not need to check if entity exists (another select))
 Merge only when entity is deatached (eg it's returned from another layer) and we need to save it. 
