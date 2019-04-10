@@ -104,3 +104,28 @@ for (Person person : personList) {
 > T merge(T object); - save entity, and also save some old entity(deserialized? I'm not sure about it.). Need to check if entity exists. After returning, entity (object) is 'no entity'. SO when  entity (object) is passed to merge method, it will be copied, save and copy will be returned. So copy is entity, not the passed object.
 So, better choice is persist (because performance, does not need to check if entity exists (another select))
 Merge only when entity is deatached (eg it's returned from another layer) and we need to save it. 
+
+11. Optimistic locking
+todo:
+
+12. Identity - equals and hashcode.
+During Object lifecycie hashcode should be the same. So it cannot be based of field which are changing (Ids too, because at the betginning we don't have an id). Solution is UUID (random 32 character string). We need to create base entity with this field, and all entities should inherit from it:
+
+@MappedSuperclass
+public abstract class BaseEntity implements Serializable{
+  @Id
+  @GeneratedValue
+  private Long id;
+  
+  private String uuid = UUID.random().toString();
+  
+  public int hashCode(){
+    return Objects.hash(uuid); 
+  }
+  // equals ommited for brevity - based on uuid too
+}
+
+13. Caching
+* L1
+* L2
+* Query cache
