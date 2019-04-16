@@ -3,12 +3,15 @@ Docker workshop by TJB
 # 1. What is a Docker container?
 
 A proccess tree running within a namespace, networking and file system. 
+Docker offers an isolation!!!
+Different definiton:
+Docker container is an isolated software system
 
 # 2. Docker daemon
 
 Manages docker containers.
 
-# 3. Docker image
+# 3. Docker image, docker container
 
 Template for docker container.
 
@@ -36,3 +39,10 @@ docker inspect [container-id] --> see container specification
 docker search [some-image-name]
 
 eg: docker search java will return images related to java
+
+# 9. VM vs container?
+VM simulates hardware.
+Container is lighter. Container uses kernel of host system, it does not emualte the hardware.
+
+# 10. Docker architecture
+Docker client and server that communicates via REST APIs.
