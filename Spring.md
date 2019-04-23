@@ -19,6 +19,12 @@ With this annotations, Spring will automatically import the beans into the conta
 @Controller
 > Mark class as Spring MVC controller. Also, inject bean into container.  When we place @Controller at the class level, we can mark methods with @RequestMapping to map URLs.
 
+### @Bean vs @Component
+
+* @Bean is method level annotation, @Component is class level annoation.
+* @Component is used to auto-config our beans using classpath scanning. 
+* @Bean is used to explicitly declare spring bean, rather than letting Spring do it automatically. 
+
 ### Is Spring controller/service/singleton thread-safe?
 
 It depends. The main factor is the scope of a bean.
