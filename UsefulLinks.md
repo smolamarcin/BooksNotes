@@ -15,3 +15,4 @@
 * Immutable libraries and just good blog with useful articles: https://www.thecuriousdev.org/immutables-an-alternative-immutability-library/
 * Maven - all in one place - https://itnext.io/writing-a-full-featured-maven-pom-f5b874eef312?sk=a208ffef0355c5a0910076c7e10d6252
 * Oauth2 very nice tutorial: https://itnext.io/an-oauth-2-0-introduction-for-beginners-6e386b19f7a9
+* Dealing with optionals - no hello world!!! - https://stackify.com/optional-java/
